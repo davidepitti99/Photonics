@@ -1,3 +1,2 @@
 # Photonics
-waveguide simulations
-test git
+Plot properties of slab waveguides from analytical results
