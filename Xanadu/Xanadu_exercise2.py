@@ -44,9 +44,9 @@ wg_width = 0.430
 cross_section = gf.cross_section.cross_section(width=wg_width, layer=layer, radius = 0)
 
 # edge coupler parameters 
-coupler_length = 10
+coupler_length = 100
 edge_width = 0.2
-length_straight = 10
+length_straight = 100
 
 #generate the structure and the gds 
 beamsplitter = beamsplitter_50_50_circuit(gap = gap, interaction_length = interaction_length, dx = dx, dy = dy, wg_width=wg_width, coupler_length=coupler_length, edge_width=edge_width, length_straight = length_straight, cross_section=cross_section, layer = layer)
